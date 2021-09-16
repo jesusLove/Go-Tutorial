@@ -32,4 +32,9 @@ func main()  {
 		fmt.Printf("index = %d, value = %d\n", i, v)
 	}
 
+	// 测验
+	ta1 := [...]string{"a", "b", "c", "d"}
+	for i := range ta1 {
+		fmt.Println("Array item", i, "is", ta1[i])
+	}
 }

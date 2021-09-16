@@ -11,7 +11,6 @@ import (
  */
 
 // Employee
-//	1. 定义
 // * 首字母大写标识：成员导出的
 // * 成员顺序有意义，不同的结构体类型
 type Employee struct {
